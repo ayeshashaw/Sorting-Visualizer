@@ -1,10 +1,10 @@
 
 
-*Introduction*
+*Introduction* -> 
 
 The Sorting-Visualizer is an interactive tool designed to help users understand the inner workings of popular sorting algorithms. By providing a visual representation of the sorting process, this project makes it easier to grasp fundamental concepts in computer science and algorithm design. It’s an ideal educational resource for students, coding enthusiasts, and anyone curious about how sorting algorithms operate.
 
-*Algorithm Selection*
+*Algorithm Selection* ->
 
 Users can choose from four popular sorting algorithms:
 
@@ -16,7 +16,7 @@ Quick Sort
 
 Merge Sort
 
-*Interactive Controls*
+*Interactive Controls* ->
 
 Generate New Array:
 
@@ -30,7 +30,7 @@ Initiates the selected sorting algorithm
 
 Provides a step-by-step visualization of the sorting process
 
-*Visual Representation*
+*Visual Representation* ->
 
 Each array element is represented as a bar, where the bar height corresponds to the element's value. The visualization uses color coding:
 
@@ -42,7 +42,7 @@ Yellow: Elements being evaluated
 
 Technical Implementation
 
-*Frontend Technologies*
+*Frontend Technologies* ->
 
 HTML5: Structured the application layout
 
@@ -50,7 +50,7 @@ CSS3: Styled the interface and created responsive design
 
 JavaScript: Implemented sorting algorithms and interactive functionality
 
-*Key JavaScript Components*
+*Key JavaScript Components* ->
 
 Array Generation: Randomly creates arrays of specified size
 
@@ -60,7 +60,7 @@ Rendering: Dynamic bar creation and updates
 
 Interaction Handling: Button events and algorithm selection
 
-*Learning Objectives*
+*Learning Objectives*->
 
 Demonstrate different sorting algorithm approaches
 
@@ -70,7 +70,7 @@ Help users understand algorithmic complexity
 
 Improve understanding of data structure manipulation
 
-*Algorithmic Complexity Showcase*
+*Algorithmic Complexity Showcase* ->
 
 Bubble Sort: O(n²) - Simple but inefficient
 
@@ -80,19 +80,19 @@ Quick Sort: O(n log n) - Efficient for larger datasets
 
 Merge Sort: O(n log n) - Stable and predictable performance
 
-*Potential Improvements*
+*Potential Improvements* ->
 
 Add more sorting algorithms
 
 Include speed control for visualization
 
-*Implement step-by-step mode*
+*Implement step-by-step mode* ->
 
 Add algorithmic complexity explanation
 
 Create responsive design for mobile devices
 
-*Educational Value*
+*Educational Value* ->
 
 This project serves as an excellent tool for:
 
