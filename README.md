@@ -70,7 +70,7 @@ Help users understand algorithmic complexity
 
 Improve understanding of data structure manipulation
 
-8*Algorithmic Complexity Showcase* ->
+8. Algorithmic Complexity Showcase* ->
 
 Bubble Sort: O(n²) - Simple but inefficient
 
