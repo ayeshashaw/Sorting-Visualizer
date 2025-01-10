@@ -1,106 +1,72 @@
+### 1. Introduction
 
+The Sorting Visualizer is an interactive tool designed to help users understand the workings of popular sorting algorithms. By providing a visual representation of the sorting process, this project simplifies the grasp of fundamental concepts in computer science and algorithm design. It serves as an ideal educational resource for students, coding enthusiasts, and anyone curious about how sorting algorithms function.
 
- 1. *Introduction* -> 
-
-The Sorting-Visualizer is an interactive tool designed to help users understand the inner workings of popular sorting algorithms. By providing a visual representation of the sorting process, this project makes it easier to grasp fundamental concepts in computer science and algorithm design. It’s an ideal educational resource for students, coding enthusiasts, and anyone curious about how sorting algorithms operate.
-
-2. *Algorithm Selection* ->
+### 2. Algorithm Selection
 
 Users can choose from four popular sorting algorithms:
 
-Bubble Sort
+- Bubble Sort
+- Selection Sort
+- Quick Sort
+- Merge Sort
 
-Selection Sort
+### 3. Interactive Controls
 
-Quick Sort
+- **Generate New Array:** Allows users to create a new random array with a customizable size (1-20 elements).
+  
+- **Solve Button:** Initiates the selected sorting algorithm, providing a step-by-step visualization of the sorting process.
 
-Merge Sort
+### 4. Visual Representation
 
-3. *Interactive Controls* ->
+Each array element is represented as a bar, with the bar height corresponding to the element's value. The visualization employs color coding:
 
-Generate New Array:
+- **Blue:** Default bar color
+- **Red:** Currently comparing or pivotal elements
+- **Yellow:** Elements being evaluated
 
-Allows users to create a new random array
+### 5. Frontend Technologies
 
-Customizable array size (1-20 elements)
+- **HTML5:** Used to structure the application layout.
+- **CSS3:** Styled the interface and enabled responsive design.
+- **JavaScript:** Implemented sorting algorithms and interactive functionality.
 
-Solve Button:
+### 6. Key JavaScript Components
 
-Initiates the selected sorting algorithm
+- **Array Generation:** Randomly creates arrays of the specified size.
+- **Sorting Algorithms:** Implemented with async/await for smooth visualization.
+- **Rendering:** Facilitates dynamic bar creation and updates.
+- **Interaction Handling:** Manages button events and algorithm selection.
 
-Provides a step-by-step visualization of the sorting process
+### 7. Learning Objectives
 
-4. *Visual Representation* ->
+- Demonstrate various sorting algorithm techniques.
+- Provide visual insight into sorting mechanisms.
+- Help users understand algorithmic complexity.
+- Improve understanding of data structure manipulation.
 
-Each array element is represented as a bar, where the bar height corresponds to the element's value. The visualization uses color coding:
+### 8. Algorithmic Complexity Showcase
 
-Blue: Default bar color
+- **Bubble Sort:** O(n²) - Simple but inefficient.
+- **Selection Sort:** O(n²) - Slightly more efficient than Bubble Sort.
+- **Quick Sort:** O(n log n) - Efficient for larger datasets.
+- **Merge Sort:** O(n log n) - Stable and predictable performance.
 
-Red: Currently comparing/pivotal elements
+### 9. Potential Improvements
 
-Yellow: Elements being evaluated
+- Add more sorting algorithms.
+- Include a speed control feature for visualization.
 
-Technical Implementation
+### 10. Step-by-Step Mode
 
-5. *Frontend Technologies* ->
+- Implement algorithmic complexity explanations.
+- Create a responsive design for mobile devices.
 
-HTML5: Structured the application layout
-
-CSS3: Styled the interface and created responsive design
-
-JavaScript: Implemented sorting algorithms and interactive functionality
-
-6. *Key JavaScript Components* ->
-
-Array Generation: Randomly creates arrays of specified size
-
-Sorting Algorithms: Implemented with async/await for smooth visualization
-
-Rendering: Dynamic bar creation and updates
-
-Interaction Handling: Button events and algorithm selection
-
-7. *Learning Objectives*->
-
-Demonstrate different sorting algorithm approaches
-
-Provide visual insight into sorting mechanisms
-
-Help users understand algorithmic complexity
-
-Improve understanding of data structure manipulation
-
-8. Algorithmic Complexity Showcase* ->
-
-Bubble Sort: O(n²) - Simple but inefficient
-
-Selection Sort: O(n²) - Slightly more efficient than bubble sort
-
-Quick Sort: O(n log n) - Efficient for larger datasets
-
-Merge Sort: O(n log n) - Stable and predictable performance
-
-9. *Potential Improvements* ->
-
-Add more sorting algorithms
-
-Include speed control for visualization
-
-10. *Implement step-by-step mode* ->
-
-Add algorithmic complexity explanation
-
-Create responsive design for mobile devices
-
-11. *Educational Value* ->
+### 11. Educational Value
 
 This project serves as an excellent tool for:
 
-Computer science students
-
-12. *Coding learners*
-
-
-Individuals interested in algorithm visualization
-
-Teaching fundamental sorting concepts
+- Computer science students
+- Coding learners
+- Individuals interested in algorithm visualization
+- Teaching fundamental sorting concepts
