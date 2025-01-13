@@ -1,3 +1,5 @@
+
+#### Deployed Link - https://gentle-sable-3e156f.netlify.app/
 ### 1. Introduction
 
 The Sorting Visualizer is an interactive tool designed to help users understand the workings of popular sorting algorithms. By providing a visual representation of the sorting process, this project simplifies the grasp of fundamental concepts in computer science and algorithm design. It serves as an ideal educational resource for students, coding enthusiasts, and anyone curious about how sorting algorithms function.
